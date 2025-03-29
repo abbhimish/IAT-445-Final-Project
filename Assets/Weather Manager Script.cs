@@ -6,7 +6,7 @@ public class WeatherController : MonoBehaviour
 {
     public ParticleSystem rainParticleSystem;
     public float maxRainRate = 5000f; // Maximum particle emission rate
-    public float maxFogDensity = 1f; // Maximum fog density value
+    public float maxFogDensity = 0.2f; // Maximum fog density value
 
     private ParticleSystem.EmissionModule rainEmission;
 
@@ -22,13 +22,17 @@ public class WeatherController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            SetWeather(0.10f); // 50% density
+            SetWeather(0.0f); // 50% density
         }
         else if (Input.GetKeyDown(KeyCode.U))
         {
-            SetWeather(0.35f); // 75% density
+            SetWeather(0.10f); // 75% density
         }
         else if (Input.GetKeyDown(KeyCode.I))
+        {
+            SetWeather(0.35f); // 100% density
+        }
+        else if (Input.GetKeyDown(KeyCode.O))
         {
             SetWeather(0.60f); // 100% density
         }
