@@ -1,0 +1,29 @@
+Please be aware that every LOD stage has its own material/texture map by default. 
+E.g. all LOD 0 rocks share the same texture map, all LOD 1 rocks have their own texture map, etc. 
+
+It is possible to use LOD 1 or LOD 2 stages separate from the LOD groups as meshes. Therefore the 
+LOD 1 and LOD 2 textures have also a 4096 resolution. By default the LOD1 textures are imported at
+a 2048 resolution and the LOD2 textures at 1024. But their original size is 4096.
+
+The LOD meshes must be unparented from the LOD groups to be used separately.
+
+But if you want to use the LOD groups, you can replace the LOD1 / LOD2 materials with the 
+LOD 0 material. All LOD stages use the same material/texture map then. This is 
+better for performance because only one material will be used and only one texture map is loaded 
+into the texture memory instead of three.
+
+To replace the LOD1 / LOD2 materials, go to the Prefabs/rocks folder. 
+Expand the rock prefabs until the LOD stages are listed. Now mark all LOD 1 and LOD 2 
+objects with left clicking while holding down CTRL. If all objects are marked, expand the material 
+entry in the mesh renderer component in the inspector window on the right.
+
+Go to FBX/Rocks/Materials. Drag and drop the “RockSet1LOD0 or RockSet2LOD0” material into the material 
+entry of the LOD meshes you have marked. Now all LOD stages will use the same material/texture map. 
+
+Please note: The textures of the LOD 0 materials are made for the LOD 0 stages, so there will be 
+some texture seams on the LOD 1 and LOD 2 stages. But this is not a problem because the LOD1 / LOD2 
+meshes are only seen from a distance. Only if the transition from LOD 0 to LOD 1 is at a really 
+close distance these seams might be visible.
+
+If there are problems with visible seams you can always change back the LOD 0 materials on the 
+LOD meshes to the LOD1 / LOD2 materials.
