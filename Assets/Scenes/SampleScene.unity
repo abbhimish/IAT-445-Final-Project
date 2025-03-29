@@ -24552,8 +24552,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9836758, g: 0.9218383, b: 0.7667898, a: 1}
-  m_Intensity: 0.8416667
+  m_Color: {r: 0.97523487, g: 0.88142246, b: 0.6462016, a: 1}
+  m_Intensity: 0.77500004
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -24562,7 +24562,7 @@ Light:
     m_Type: 1
     m_Resolution: 1
     m_CustomResolution: -1
-    m_Strength: 0.42083335
+    m_Strength: 0.38750002
     m_Bias: 0.3
     m_NormalBias: 1.15
     m_NearPlane: 0.2
@@ -24611,7 +24611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459165246}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5112932, y: 0, z: 0, w: 0.8594064}
+  m_LocalRotation: {x: 0.41865978, y: 0, z: 0, w: 0.90814316}
   m_LocalPosition: {x: 76.2, y: 176, z: 322.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -27139,7 +27139,7 @@ MonoBehaviour:
   rotationAxis: 0
   IsDayCycleOn: 1
   RandomStartTime: 0
-  TimeOfDay: 10.1
+  TimeOfDay: 9.3
   StartTime: 0
   CycleDuration: 180
   morningInterval: {x: 0, y: 0.5}
@@ -30964,7 +30964,7 @@ Transform:
   m_GameObject: {fileID: 1818293712}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -121.39017, y: 192.62968, z: 293.6176}
+  m_LocalPosition: {x: -121.39017, y: 199.9, z: 293.6176}
   m_LocalScale: {x: 15.781471, y: 15.781471, z: 15.781471}
   m_ConstrainProportionsScale: 0
   m_Children: []
