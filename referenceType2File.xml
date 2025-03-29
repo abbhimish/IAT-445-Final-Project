@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>26b20b7fd56636d47bff7fcb14a8907b</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>be28381799e45d243aee6c8900c5fab4</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>919e78b3e74103d4197ef9950cb9ba95</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6db2321e4fbfc804d9c4d378f6b22238</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>816bbf874977fca458b89b4973dbfa5d</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>66bbe02182aec59448da567e348c84b7</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T06:39:42-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>517f4f0dd0054b442bac2e85f482845c</guid>
+    <fileName>Assets/Editor/PrefabPlacementTool.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8289511-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>daaa8732ff796482399e57b502164d2a</guid>
+    <fileName>Assets/PolyLabs LLC/BonusAssets/Rotator.cs</fileName>
+    <timeStamp>2025-03-28T17:00:26.9206063-07:00</timeStamp>
+    <typeFullName>
+      <string>Rotator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ba15fa37442517749a3c4640a4ad4054</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8502276-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4deca87cb459d1642ac8f734856ca84e</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8502276-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>43fcc28c40e404d4eabfc88b1dbda7b5</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/BloomEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8517346-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>80cbbe1c107bf5e43a96347d3dfc2658</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8517346-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a4a9489f73e4f0344ab3fc97bdf5170b</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8528748-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>66c17be95fbf398439ea09f8892a8b43</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8528748-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6788af605d2f1244789565913bb4e7f6</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8538763-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>943c59645eb905144a0990b57e13a6f9</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8538763-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>427fdf36119bab44a9131abd19b90f57</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8538763-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b5f1618d14cd80f4da910f00b04af37f</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8548756-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>abd63abcc46fbcb4588164b671b52d3b</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8548756-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>54f6f6313f2aecc4d81035ec0031e313</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8548756-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0f7cab214f141f642b87a5bdbd14653e</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8564794-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>08126bf2baa528c4cb9c60340a24e5d6</guid>
+    <fileName>Assets/Island pack/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8564794-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e89654dcf6db746d2a57aeaaa14f5e83</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AmbientOcclusion/AmbientOcclusion.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8695291-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+SampleCount</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+OcclusionSource</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+Settings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fdc35e0180670ab4e8d2f9439137791f</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/AntiAliasing.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8945666-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.AntiAliasing</string>
+      <string>UnityStandardAssets.CinematicEffects.AntiAliasing+Method</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>90329fa7c7a616243a47de84e6e5c041</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/IAntiAliasing.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9188291-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.IAntiAliasing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>32187365ced0c42219cde2b57c99b323</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Bloom/Bloom.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9413886-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.Bloom</string>
+      <string>UnityStandardAssets.CinematicEffects.Bloom+Settings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ab6a3f50deeee984c88794eeeb901226</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/ImageEffectHelper.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9688479-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.ImageEffectHelper</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b07292ae638766047a6751da7552e566</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/MinAttribute.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9688479-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.MinAttribute</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>054e694bae00c374a97c2bc495fca66b</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/RenderTextureUtility.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9698496-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.RenderTextureUtility</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a338d679868f45439ea43c7ae035e36</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/DepthOfField/DepthOfField.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9765284-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+TweakMode</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+ApertureShape</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+QualityPreset</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+FilterQuality</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+GlobalSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+QualitySettings</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+FocusSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.DepthOfField+BokehTextureSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff5335a7357baa3489a469d0ca0f40f3</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/LensAberrations/LensAberrations.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.1189848-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations</string>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations+SettingsGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations+AdvancedSetting</string>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations+DistortionSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations+VignetteSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.LensAberrations+ChromaticAberrationSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>da3ff4a1bef2e8d47a1dfb734aa54de1</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ScreenSpaceReflection/ScreenSpaceReflection.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.143224-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+SSRResolution</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+SSRReflectionBlendType</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+SSRSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+IntensitySettings</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+ReflectionSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.ScreenSpaceReflection+ScreenEdgeMask</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58a7625302996c94ba07a8ca3351f668</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/TonemappingColorGrading/TonemappingColorGrading.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.1629233-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+SettingsGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+IndentedGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ChannelMixer</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ColorWheelGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+Curve</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+EyeAdaptationSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+Tonemapper</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+TonemappingSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+LUTSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ColorWheelsSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+BasicsSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ChannelMixerSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+CurvesSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ColorGradingPrecision</string>
+      <string>UnityStandardAssets.CinematicEffects.TonemappingColorGrading+ColorGradingSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>05ea8e27ed8e74e67a9220b4f4119e51</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AmbientOcclusion/Editor/AmbientOcclusionEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8756928-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1d9548d9a173a40e4b758ecf6e4fed49</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AmbientOcclusion/Helpers/PropertyObserver.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8822209-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+SampleCount</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+OcclusionSource</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+Settings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e952a344c72354904a417d27abe6f55e</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AmbientOcclusion/Helpers/Settings.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.8833622-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+SampleCount</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+OcclusionSource</string>
+      <string>UnityStandardAssets.CinematicEffects.AmbientOcclusion+Settings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6bd9375ab74a65448b556b0452e8c6af</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/Editor/AntiAliasingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9000826-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>015ee83e537e9e4438f403e2149c69ae</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/Editor/IAntiAliasingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9000826-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8ca0fe85db4ef594fb0771b250c00e23</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/FXAA/FXAA.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9117006-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.FXAA</string>
+      <string>UnityStandardAssets.CinematicEffects.FXAA+QualitySettings</string>
+      <string>UnityStandardAssets.CinematicEffects.FXAA+ConsoleSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.FXAA+Preset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c2502951f8f3e743917c441eba57d1c</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/SMAA/SMAA.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.935873-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.CinematicEffects.SMAA</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+SettingsGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+TopLevelSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+ExperimentalGroup</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+DebugPass</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+QualityPreset</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+EdgeDetectionMethod</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+GlobalSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+QualitySettings</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+TemporalSettings</string>
+      <string>UnityStandardAssets.CinematicEffects.SMAA+PredicationSettings</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>38020a6029a85434a95a6f725a5aae5f</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Bloom/Editor/BloomEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9475843-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e2d62b6f4e4eb4c6783477b5d99abdff</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Bloom/Editor/BloomGraphDrawer.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9485966-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5b995f06a3ed14d449823cf7ab1c5a58</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/Editor/EditorGUIHelper.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9678482-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>39e54cb37a3a81a40b248f1cc25c4619</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/Editor/FieldFinder.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9678482-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9c615a85f13c6764fa4496d1d7f75f52</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/Common/Editor/MinDrawer.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9688479-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3eb07ef5681934662814cc768bcdb60c</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/DepthOfField/Editor/DepthOfFieldEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9825561-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>646b5bc27a658f447b1d929fd5ffbd70</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0006845-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.AAMode</string>
+      <string>UnityStandardAssets.ImageEffects.Antialiasing</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fceaeb339b971b429c4cc600acabd13</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0021717-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Bloom</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+LensFlareStyle</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+TweakMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.Bloom+BloomQuality</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02536f33053638549ab5c50ff3ecc0de</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0021717-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.LensflareStyle34</string>
+      <string>UnityStandardAssets.ImageEffects.TweakMode34</string>
+      <string>UnityStandardAssets.ImageEffects.HDRBloomMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomScreenBlendMode</string>
+      <string>UnityStandardAssets.ImageEffects.BloomAndFlares</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4975a6e437fc3b149a8cd508ce5bdd69</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0032603-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+Resolution</string>
+      <string>UnityStandardAssets.ImageEffects.BloomOptimized+BlurType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>34382083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0032603-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Blur</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fc6bde01469c7b4badee5362f191d96</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0032603-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized+BlurType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97e9b95cf609d96409b6c40519432957</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0042618-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur</string>
+      <string>UnityStandardAssets.ImageEffects.CameraMotionBlur+MotionBlurFilter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fd999d1b2cf94a45a5b0a47ce074bef</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0042618-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves</string>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionCurves+ColorCorrectionMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8cde8c0fd649d9b46bb403ba5e157391</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.005263-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionLookup</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea59781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.005263-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ColorCorrectionRamp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3309686a9fbbe6e42a182d5e0257704c</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.005263-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastEnhance</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec92b071d2d424aecb3e46f28eb63174</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.005263-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ContrastStretch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d64b4f3a592f28b44bf19223ac8b6cd2</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0067137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.CreaseShading</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd70d448b18cfbc46af26466f752332c</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0067137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurType</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfField+BlurSampleCount</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83d8db0ec466c14429f58c68c16398a1</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0067137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+Dof34QualitySetting</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofResolution</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+DofBlurriness</string>
+      <string>UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated+BokehDestination</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>730475ee64f9a894bbac0d9e6f22e813</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0077117-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection</string>
+      <string>UnityStandardAssets.ImageEffects.EdgeDetection+EdgeDetectMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4739c22ef73ad62488fe344c8fe9addd</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0077117-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Fisheye</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76b5ec6153a1d55438228df10fe66844</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0087137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.GlobalFog</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>243a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0087137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Grayscale</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f6469eb0ad1119d6d00011d98d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0087137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffectBase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>89a037199d11087f1100e2b844295342</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0087137-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ImageEffects</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>478a2083ad114a07d000fbfb8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.010217-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.MotionBlur</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9191284b058eef549b7108b5f04e1117</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.010217-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndGrain</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a88a26a276b4e47619ce2c5adad33fab</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.010217-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.NoiseAndScratches</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6f4318ec6c2bf643a0f9edfeeaba0ec</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0112219-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsBase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>50b03df8f04b5c441aaac5b7fccb4734</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0112219-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsHelper</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a20852ce049f64e4695a48b6a354be83</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0122234-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Quads</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f19108706fdce9469603d07980eb8ad</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0122234-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenOverlay+OverlayBlendMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>75febd242c999f04d9654522a10c006b</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0132226-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0923359e9e352a4b9b11c7b7161ad67</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0132226-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion</string>
+      <string>UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion+SSAOSamples</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a07a781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0143215-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SepiaTone</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>60e318a6043c1cb4a8ce1c8805bab930</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0143215-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.SunShafts</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+SunShaftsResolution</string>
+      <string>UnityStandardAssets.ImageEffects.SunShafts+ShaftsScreenBlendMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a22b3a7095a744a428c134b5e26ad68e</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0148244-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.TiltShift</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftMode</string>
+      <string>UnityStandardAssets.ImageEffects.TiltShift+TiltShiftQuality</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e50e925fb93c78246bf995d9dc3a2330</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0148244-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+TonemapperType</string>
+      <string>UnityStandardAssets.ImageEffects.Tonemapping+AdaptiveTexSize</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18b91636de2ba3445913e4cf38528dc8</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0158286-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Triangles</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bdda781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0158286-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Twirl</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dd6d4281e5d7cd44d8c6e38bc2c1b8d8</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0158286-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration</string>
+      <string>UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration+AberrationMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a94b781cad112c75d0008dfa8d76c639</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.0168291-07:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.Vortex</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8becb41f431ef90468376f6c5845e0bd</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/LensAberrations/Editor/LensAberrationsEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.1189848-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb0236f80884a1f4793c96b4d2da5c68</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/ScreenSpaceReflection/Editor/ScreenSpaceReflectionEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.1362038-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>64bb64b30a05a0d4b8afe58a356fc8fb</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/TonemappingColorGrading/Editor/TonemappingColorGradingEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:19.1564127-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60bfb637c85e3e04ea76962349fee327</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/FXAA/Editor/FXAAEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9107002-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5c2ffc06b5a6ee64d8e1d9bdf074732c</guid>
+    <fileName>Assets/Island pack/Standard Assets/Effects/AntiAliasing/SMAA/Editor/SMAAEditor.cs</fileName>
+    <timeStamp>2025-03-24T14:43:18.9302553-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
