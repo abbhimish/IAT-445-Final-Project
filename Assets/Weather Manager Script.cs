@@ -45,5 +45,6 @@ public class WeatherController : MonoBehaviour
             rainEmission.rateOverTime = maxRainRate * intensity;
         }
         RenderSettings.fogDensity = maxFogDensity * intensity;
+        Debug.Log("Fog Density Set To: " + RenderSettings.fogDensity);
     }
 }
