@@ -15,6 +15,10 @@ public class Triggerscript : MonoBehaviour
     public ParticleSystem firepart3;
     public ParticleSystem firepart4;
 
+    public AudioSource genAmbAudio, genTurnOn, genTurnOff, voiceline2;
+
+    bool voiceLinePlayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +44,13 @@ public class Triggerscript : MonoBehaviour
             smoke1.Play();
             sparks1.Play();
             Invoke("startfire", 5);
+            genAmbAudio.Play();
+            genTurnOn.Play();
+
+            if (voiceLinePlayed == false) { 
+            voiceline2.Play();
+            voiceLinePlayed = true;
+        }
         }
     }
 
@@ -51,6 +62,8 @@ public class Triggerscript : MonoBehaviour
             lightSource.enabled = false;
             smoke1.Stop();
             sparks1.Stop();
+            genAmbAudio.Stop();
+            genTurnOff.Play();
         }
     }
 

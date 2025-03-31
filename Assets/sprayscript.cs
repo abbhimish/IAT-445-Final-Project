@@ -14,6 +14,8 @@ public class sprayscript : MonoBehaviour
 
     public bool istrig = false;
 
+    public AudioSource fireExtSound, spraysound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,8 @@ public class sprayscript : MonoBehaviour
             foam.Play();
             Invoke("stopfire", 5);
             istrig = true;
+            fireExtSound.Play();
+            spraysound.Play();
         }
     }
 
@@ -42,7 +46,7 @@ public class sprayscript : MonoBehaviour
         if (collision.gameObject.CompareTag("firezone"))
         {
             foam.Stop();
-
+            spraysound.Stop();
         }
     }
 

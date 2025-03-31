@@ -9,6 +9,8 @@ public class sinktriggScript : MonoBehaviour
     public GameObject ocean;
     public bool seagoingdown = false;
 
+    public AudioSource sinkSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,7 @@ public class sinktriggScript : MonoBehaviour
         {
             sinkwater.Play();
             seagoingdown = true;
+            sinkSound.Play();
         }
     }
 
@@ -39,6 +42,7 @@ public class sinktriggScript : MonoBehaviour
         {
             sinkwater.Stop();
             seagoingdown = false;
+            sinkSound.Stop();
         }
     }
 }

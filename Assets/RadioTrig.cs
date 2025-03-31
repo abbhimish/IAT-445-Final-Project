@@ -8,12 +8,14 @@ public class RadioTrig : MonoBehaviour
 
     public bool Rightfrequency;
     public Light lightSource;
+    public AudioSource numStation, radioFreq;
 
     // Start is called before the first frame update
     void Start()
     {
         Rightfrequency = false;
         lightSource.enabled = false;
+        radioFreq.Play();
     }
 
     // Update is called once per frame
@@ -28,7 +30,8 @@ public class RadioTrig : MonoBehaviour
         {
             Rightfrequency = true;
             lightSource.enabled = true;
-            
+            numStation.Play();
+            radioFreq.Stop();
         }
     }
 
@@ -38,7 +41,8 @@ public class RadioTrig : MonoBehaviour
         {
             Rightfrequency = false;
             lightSource.enabled = false;
-            
+            numStation.Stop();
+            radioFreq.Play();
         }
     }
 }

@@ -19,6 +19,8 @@ public class keypressScript : MonoBehaviour
 
     public Light Beaconleverlivelight;
 
+    public AudioSource key1, key2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -184,6 +186,13 @@ public class keypressScript : MonoBehaviour
             codeDisplay.text = codeslot1 + codeslot2 + codeslot3 + codeslot4;
 
         }
+
+        int randomNum = Random.Range(1, 11);
+
+        if (randomNum <= 5)
+            key1.Play();
+        else
+            key2.Play();
 
     }
 
