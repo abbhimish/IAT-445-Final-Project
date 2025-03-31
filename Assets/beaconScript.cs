@@ -8,6 +8,10 @@ public class beaconScript : MonoBehaviour
     public GameObject thelight;
     public bool lightspin = false;
 
+    public AudioSource voiceline3;
+
+    bool voicelineplayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +33,12 @@ public class beaconScript : MonoBehaviour
         {
             
             lightspin = true;
+
+            if (voicelineplayed == false)
+            {
+                voiceline3.Play();
+                voicelineplayed = true;
+                }
         }
     }
 

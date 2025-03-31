@@ -8,6 +8,9 @@ public class Triggerscript : MonoBehaviour
     public bool isTrig = false;
     public Light lightSource;
     public ParticleSystem smoke1;
+    public ParticleSystem bigsmoke1;
+    public ParticleSystem bigsmoke2;
+
     public ParticleSystem sparks1;
 
     public ParticleSystem firepart1;
@@ -42,6 +45,8 @@ public class Triggerscript : MonoBehaviour
             isTrig = true;
             lightSource.enabled = true;
             smoke1.Play();
+            bigsmoke1.Play();
+            bigsmoke2.Play();
             sparks1.Play();
             Invoke("startfire", 5);
             genAmbAudio.Play();
@@ -61,6 +66,8 @@ public class Triggerscript : MonoBehaviour
             isTrig = false;
             lightSource.enabled = false;
             smoke1.Stop();
+            bigsmoke1.Stop();
+            bigsmoke2.Stop();
             sparks1.Stop();
             genAmbAudio.Stop();
             genTurnOff.Play();

@@ -1,46 +1,40 @@
-using System.Collections;
 using UnityEngine;
 
-public class MoveAndGrow : MonoBehaviour
+public class ObjectMover : MonoBehaviour
 {
-    public Transform player;  // Assign the player object in the Inspector
-    public float moveSpeed = 2f;  // Speed at which it moves towards the player
-    public float growthRate = 0.5f; // Rate at which it grows
-    public float maxSize = 3f; // Maximum scale it can grow to
+    public Transform player; // Assign the player in the Inspector
+    public float moveSpeed = 5f;
+    public float scaleSpeed = 1f;
+    public float maxScale = 2f;
 
     private Vector3 originalScale;
-    private bool isActive = false;
+    private bool isMoving = false;
 
     void Start()
     {
         originalScale = transform.localScale;
-        isActive = false;
     }
 
-    void OnEnable()  // Triggers when the object becomes active in the scene
+    void Update()
     {
-        StartCoroutine(GrowAndMove());
-    }
-
-    IEnumerator GrowAndMove()
-    {
-        isActive = true;
-
-        while (isActive)
+        if (Input.GetKeyDown(KeyCode.F5))
         {
-            if (player != null)
-            {
-                // Move towards the player
-                transform.position = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
-            }
+            isMoving = true;
+        }
 
-            // Gradually increase size
-            if (transform.localScale.x < maxSize)
-            {
-                transform.localScale += Vector3.one * (growthRate * Time.deltaTime);
-            }
+        if (isMoving)
+        {
+            // Move towards player
+            transform.position = Vector3.Lerp(transform.position, player.position, moveSpeed * Time.deltaTime);
 
-            yield return null; // Wait for the next frame
+            // Increase scale
+            transform.localScale = Vector3.Lerp(transform.localScale, originalScale * maxScale, scaleSpeed * Time.deltaTime);
+
+            // Optional: Stop movement when close enough
+            if (Vector3.Distance(transform.position, player.position) < 0.5f)
+            {
+                isMoving = false;
+            }
         }
     }
 }
