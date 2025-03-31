@@ -1,12 +1,12 @@
 using UnityEngine;
-using Sydewa; // 加上你 LightingManager 的命名空间
+using Sydewa;
 
 public class StageController : MonoBehaviour
 {
     public LightingManager lightingManager;
     public float startTime = 3.5f;
     public float targetTime = 8f;
-    public float transitionDuration = 5f; // 时间变化持续 5 秒
+    public float transitionDuration = 5f;
 
     private bool isTransitioning = false;
     private float transitionTimer = 0f;
@@ -15,13 +15,14 @@ public class StageController : MonoBehaviour
     {
         if (lightingManager != null)
         {
-            lightingManager.IsDayCycleOn = false; // 不让它自动播放
+            lightingManager.IsDayCycleOn = false;
             lightingManager.TimeOfDay = startTime;
         }
     }
 
     void Update()
     {
+        //Manually start the experience
         if (Input.GetKeyDown(KeyCode.Q) && !isTransitioning)
         {
             transitionTimer = 0f;

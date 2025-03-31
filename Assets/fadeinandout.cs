@@ -90,7 +90,7 @@ public class StageFadeEffect : MonoBehaviour
                     color.a = alpha;
                     mat.color = color;
 
-                    // 确保材质支持透明
+                    
                     if (mat.HasProperty("_Mode"))
                     {
                         mat.SetFloat("_Mode", 2); // Transparent
