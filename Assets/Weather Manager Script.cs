@@ -8,6 +8,12 @@ public class WeatherController : MonoBehaviour
     public float maxRainRate = 5000f; // Maximum particle emission rate
     public float maxFogDensity = 0.2f; // Maximum fog density value
 
+    [Header("Stage Weather Intensity")]
+    public float weatherIntensity = 0.0f; // Assign per stage (e.g., 0.0f for stage1-2, 0.10f for stage2-3)
+
+    [Header("Optional Key Trigger")]
+    public KeyCode triggerKey = KeyCode.None; // e.g., KeyCode.F1 for stage1-2, F2 for stage2-3
+
     private ParticleSystem.EmissionModule rainEmission;
 
     void Start()
@@ -16,35 +22,28 @@ public class WeatherController : MonoBehaviour
         {
             rainEmission = rainParticleSystem.emission;
         }
+
+        // Optional: Automatically trigger on Start
+        SetWeather(weatherIntensity);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y))
+        // Press F1, F2... to manually trigger this stage's weather
+        if (triggerKey != KeyCode.None && Input.GetKeyDown(triggerKey))
         {
-            SetWeather(0.0f); // 50% density
-        }
-        else if (Input.GetKeyDown(KeyCode.U))
-        {
-            SetWeather(0.10f); // 75% density
-        }
-        else if (Input.GetKeyDown(KeyCode.I))
-        {
-            SetWeather(0.35f); // 100% density
-        }
-        else if (Input.GetKeyDown(KeyCode.O))
-        {
-            SetWeather(0.60f); // 100% density
+            SetWeather(weatherIntensity);
         }
     }
 
-    void SetWeather(float intensity)
+    public void SetWeather(float intensity)
     {
         if (rainParticleSystem != null)
         {
             rainEmission.rateOverTime = maxRainRate * intensity;
         }
+
         RenderSettings.fogDensity = maxFogDensity * intensity;
-        Debug.Log("Fog Density Set To: " + RenderSettings.fogDensity);
+        Debug.Log($"[{gameObject.name}] Weather set to intensity: {intensity}, Fog: {RenderSettings.fogDensity}");
     }
 }

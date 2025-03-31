@@ -20,18 +20,21 @@ public class Stage1To2Controller : MonoBehaviour
     public GameObject[] replaceFrom;
     public GameObject[] replaceTo;
 
-    [Header("Stage Trigger")]
-    public KeyCode triggerKey = KeyCode.W;
+    [Header("Stage Triggers")]
+    public KeyCode triggerKey = KeyCode.Alpha2;
+    public ParticleSystem triggerParticle;
+    public Light triggerObject; // Light 类型
+    public TextMesh codeDisplayText;
+    public GameObject beaconScriptObject;
 
+    private bool hasTriggered = false;
     private float[,,] originalMap, backupMap;
     private int width, height, layers;
     private bool isBlending = false;
     private float blendTimer = 0f;
-
     private bool isLoweringWater = false;
     private float waterTimer = 0f;
     private Vector3[] originalWaterPositions;
-
     private Dictionary<GameObject, bool> originalActiveStates = new();
     private List<GameObject> spawnedPrefabs = new();
     private List<(GameObject prefab, Vector3 position, Quaternion rotation)> replacedPrefabs = new();
@@ -69,17 +72,54 @@ public class Stage1To2Controller : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(triggerKey) && !isBlending)
+        bool keyCondition = Input.GetKeyDown(triggerKey);
+        bool particleCondition = triggerParticle != null && triggerParticle.isPlaying;
+        bool lightCondition = triggerObject != null && triggerObject.enabled && triggerObject.intensity > 0f;
+        bool codeCondition = codeDisplayText != null && codeDisplayText.text == "1532";
+        bool beaconCondition = beaconScriptObject != null &&
+                               beaconScriptObject.TryGetComponent<beaconScript>(out var beacon) &&
+                               beacon.lightspin;
+
+        if (!hasTriggered)
         {
-            ApplyStage2Changes();
+            if (keyCondition)
+            {
+                Debug.Log("[StageTrigger] 按下热键触发阶段转换。");
+                hasTriggered = true;
+            }
+            else if (particleCondition)
+            {
+                Debug.Log("[StageTrigger] 粒子正在播放，触发阶段转换。");
+                hasTriggered = true;
+            }
+            else if (lightCondition)
+            {
+                Debug.Log("[StageTrigger] Livelight 灯光已开启，触发阶段转换。");
+                hasTriggered = true;
+            }
+            else if (codeCondition)
+            {
+                Debug.Log("[StageTrigger] TextMesh 显示 1532，触发阶段转换。");
+                hasTriggered = true;
+            }
+            else if (beaconCondition)
+            {
+                Debug.Log("[StageTrigger] BeaconScript 的 lightspin 为 true，触发阶段转换。");
+                hasTriggered = true;
+            }
+
+            if (hasTriggered)
+            {
+                ApplyStage2Changes();
+            }
         }
 
         if (isBlending)
         {
             blendTimer += Time.deltaTime;
             float t = Mathf.Clamp01(blendTimer / blendDuration);
-
             float[,,] blendedMap = new float[width, height, layers];
+
             for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < width; x++)
@@ -187,20 +227,14 @@ public class Stage1To2Controller : MonoBehaviour
         for (int i = 0; i < waterPlanes.Length; i++)
         {
             if (waterPlanes[i] != null)
-                waterPlanes[i].position = originalWaterPositions[i];
+                originalWaterPositions[i] = waterPlanes[i].position;
         }
 
         foreach (var kvp in originalActiveStates)
-        {
-            if (kvp.Key != null)
-                kvp.Key.SetActive(kvp.Value);
-        }
+            if (kvp.Key != null) kvp.Key.SetActive(kvp.Value);
 
         foreach (var obj in spawnedPrefabs)
-        {
-            if (obj != null)
-                DestroyImmediate(obj);
-        }
+            if (obj != null) DestroyImmediate(obj);
 
         foreach (var entry in replacedPrefabs)
         {
